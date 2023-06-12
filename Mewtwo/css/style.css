@@ -1,0 +1,47 @@
+:root {
+    --primary-color: rgb(255 0 0);
+    --secondary-color: rgb(0 255 0 );
+    --tertiary-color: rgb(0 0 255);
+    --back-color: rgb(137, 166, 181);
+}
+
+/* Reset padrão do documento*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: var(--back-color);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+#red {
+    background-color: var(--primary-color);
+}
+
+#green {
+    background-color: var(--secondary-color);
+}
+
+#blue {
+    background-color: var(--tertiary-color);
+}
+
